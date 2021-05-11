@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <title>Sprites</title>
+    <style>
+        body {
+			background-color: #fff;
+			font-family: Arial;
+		}
+		main.contenedor {
+			background-color: #17a053;
+			margin: 10px auto;
+			padding: 20px;
+		}
+		header {
+			height: 200px;
+		}
+		div.img_header {
+			background: url(img/spriteweb.png) no-repeat -10px -440px;
+			height: 120px;
+			margin: 0px auto;
+			width: 180px;
+		}
+		header nav {
+			margin: 20px auto;
+			padding: 0;
+			width: 920px;
+		}
+		header nav li {
+			background-color: rgba(0,0,0,.4);
+			border-bottom: 6px solid #fff;
+			color: #fff;
+			display: inline-block;
+			list-style: none;
+			padding: 20px;
+			margin: 0px 10px;
+			text-align: center;
+			width: 120px;
+		}
+		header nav li:hover {
+			background-color: rgba(0,0,0,.8);
+			border-bottom: 6px solid #fad000;
+			cursor: pointer;
+		}
+		section.slider {
+			background-color: rgba(0,0,0,.4);
+			height: 220px;
+			margin: 40px auto;
+			padding: 10px;
+			width: 880px;
+		}
+		section.slider div.marco {
+			border: 2px solid #fff;
+			background: url(img/spriteweb.png) no-repeat -500px -18px;
+			display: inline-block;
+			height: 190px;
+			margin: 10px;
+			vertical-align: top;
+			width: 264px;
+		}
+		section.slider div.marco div.info {
+			background-color: rgba(255,255,255,.4);
+			font-weight: bold;
+			font-size: 1.2em;
+			padding: 20px;
+			text-align: center;
+		}
+		section.slider div.marco:hover div.info {
+			background-color: rgba(255,255,255,.8);
+			cursor: pointer;
+		}
+		section.articulo {
+			background-color: rgba(0,0,0,.4);
+			height: 620px;
+			margin: 40px auto;
+			padding: 10px;
+			width: 880px;
+		}
+		section.articulo article:nth-child(1) {
+			margin-top: 0px;
+		}
+		section.articulo article {
+			background-color: #fff;
+			margin: 10px auto;
+			height: 200px;
+			position: relative;
+		}
+		section.articulo article:hover p {
+			color: #12713c;
+			cursor: pointer;
+		}
+		section.articulo article div.img_1 {
+			background: url(img/spriteweb.png) no-repeat -300px -500px;
+			height: 80px;
+			position: absolute;
+			top: 56px;
+			left: 50px;
+			width: 80px;
+		}
+		section.articulo article div.img_derecha {
+			background: url(img/spriteweb.png) no-repeat -80px -210px;
+			height: 160px;
+			position: absolute;
+			top: 16px;
+			right: 50px;
+			width: 110px;
+		}
+		section.articulo article p {
+			color: rgba(0,0,0,.6);
+			height: 100px;
+			position: absolute;
+			top: 0px;
+			left: 180px;
+			line-height: 1.8em;
+			text-align: justify;
+			width: 510px;
+		}
+		footer {
+			background-color: #fff;
+			height: 220px;
+			margin: 10px auto 0px auto;
+			padding: 10px;
+			position: relative;
+			width: 880px;
+		}
+		footer div.productosyservicios {
+			background: url(img/spriteweb.png) no-repeat -500px -420px;
+			height: 180px;
+			position: absolute;
+			left: 300px;
+			top: 0px;
+			width: 260px;
+		}
+		footer nav {
+			margin: 20px auto;
+			padding: 0;
+			position: absolute;
+			bottom: -10px;
+			width: 920px;
+		}
+		footer nav li {
+			border-bottom: 6px solid #fff;
+			color: rgba(0,0,0,.6);
+			display: inline-block;
+			list-style: none;
+			padding: 10px;
+			margin: 0px 10px;
+			text-align: center;
+			width: 120px;
+		}
+		footer nav li:hover {
+			border-bottom: 6px solid #12713c;
+			cursor: pointer;
+		}
+    </style>
+</head>
+<body>
+    <main class="contenedor">
+		<header>
+			<div class="img_header"></div>
+			<nav>
+				<li> INICIO </li>
+				<li> NOSOTROS </li>
+				<li> PORTAFOLIO </li>
+				<li> SERVICIOS </li>
+				<li> CONTACTO </li>
+			</nav>
+		</header>
+		<section class="slider">
+			<div class="marco">
+				<div class="info">
+					Sprite 01
+				</div>
+			</div>
+			<div class="marco">
+				<div class="info">
+					Sprite 02
+				</div>
+			</div>
+			<div class="marco">
+				<div class="info">
+					Sprite 03
+				</div>
+			</div>
+		</section>
+		<section class="articulo">
+			<article>
+				<div class="img_1"></div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam minima blanditiis porro corporis incidunt dolorum quas, exercitationem quam voluptatibus maxime perspiciatis, hic iure quos cumque necessitatibus sit architecto facere aperiam fugit voluptates. Cumque, delectus error quod facilis odio suscipit culpa quis? Ullam autem maxime nostrum reprehenderit mollitia.
+				</p>
+				<div class="img_derecha"></div>
+			</article>
+			<article>
+				<div class="img_1"></div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam minima blanditiis porro corporis incidunt dolorum quas, exercitationem quam voluptatibus maxime perspiciatis, hic iure quos cumque necessitatibus sit architecto facere aperiam fugit voluptates. Cumque, delectus error quod facilis odio suscipit culpa quis? Ullam autem maxime nostrum reprehenderit mollitia.
+				</p>
+				<div class="img_derecha"></div>
+			</article>
+			<article>
+				<div class="img_1"></div>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam minima blanditiis porro corporis incidunt dolorum quas, exercitationem quam voluptatibus maxime perspiciatis, hic iure quos cumque necessitatibus sit architecto facere aperiam fugit voluptates. Cumque, delectus error quod facilis odio suscipit culpa quis? Ullam autem maxime nostrum reprehenderit mollitia.
+				</p>
+				<div class="img_derecha"></div>
+			</article>
+		</section>
+		<footer>
+			<div class="productosyservicios"></div>
+			<nav>
+				<li> INICIO </li>
+				<li> NOSOTROS </li>
+				<li> PORTAFOLIO </li>
+				<li> SERVICIOS </li>
+				<li> CONTACTO </li>
+			</nav>
+		</footer>
+	</main>
+    
+</body>
+</html>
